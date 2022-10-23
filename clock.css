@@ -6,22 +6,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: salmon;
+    background-color: rgb(23, 31, 56);
   }
   
-  img {
-    position: absolute;
-    top: 60px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 70px;
-    z-index: 2;
-  }
+ 
   
   .clock {
     width: 350px;
     height: 350px;
-    background-color: lightgray;
+    background-color: rgb(73, 72, 72);
     border-radius: 100%;
     border: 5px solid darkgrey;
     box-shadow: 1px 1px 4px rgba(0,0,0,.7);
@@ -74,7 +67,7 @@ body {
     content: "";
     width: 25px;
     height: 25px;
-    background-color: darkgreen;
+    background-color: rgb(19, 30, 46);
     border-radius: 50%;
     box-shadow: 1px 1px 2px rgba(0,0,0,.7);
     z-index: 4;
